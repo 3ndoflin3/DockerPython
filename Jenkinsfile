@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'python3 script.py'
+        sh 'python3 preuba.py'
       }
     }
 
